@@ -1,17 +1,25 @@
 import { MotionDiv } from '../lib/motion'
 
-import { Github, Linkedin } from 'lucide-react'
+import { Github, Linkedin, Instagram, MessageCircleIcon } from 'lucide-react'
 
 const iconSize = { width: 28, height: 28 }
 
 const socialData = [
   {
-    link: 'https://github.com/grazziotti',
+    link: 'https://github.com/guilherme-dev14',
     icon: <Github width={iconSize.width} height={iconSize.height} />
   },
   {
-    link: 'https://www.linkedin.com/in/daniel-grazziotti/',
+    link: 'https://www.linkedin.com/in/guilherme-medeiros-620051234',
     icon: <Linkedin width={iconSize.width} height={iconSize.height} />
+  },
+  {
+    link: 'https://www.instagram.com/gui_smedeiros/',
+    icon: <Instagram width={iconSize.width} height={iconSize.height} />
+  },
+  {
+    link: 'https://wa.me/54999134963',
+    icon: <MessageCircleIcon width={iconSize.width} height={iconSize.height} />
   }
 ]
 
@@ -29,7 +37,7 @@ export const Footer = () => {
         }}
         className="mx-auto flex w-full max-w-5xl items-center justify-between border-t py-8 text-lg sm:flex-col sm:gap-y-6"
       >
-        <p>© 2023 / Daniel Grazziotti</p>
+        <p>© 2025 / Guilherme Medeiros</p>
         <div className="flex items-center gap-4">
           {socialData.map((social, index) => (
             <a

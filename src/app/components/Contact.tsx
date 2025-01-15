@@ -4,7 +4,7 @@ import { SectionContainer } from './SectionContainer'
 
 export const Contact = () => {
   return (
-    <SectionContainer id="contact" title="Contato">
+    <SectionContainer id="contact" title="Contact">
       <MotionDiv
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
@@ -13,8 +13,7 @@ export const Contact = () => {
         className="flex flex-col items-center gap-6"
       >
         <p className="max-w-2xl text-center text-lg">
-          Se você tiver dúvidas ou apenas gostaria de dizer olá, fique à vontade
-          para me enviar um email.
+          If you want to get in touch with me, feel free to send me an email.
         </p>
         <MotionDiv
           initial={{ opacity: 0, x: 40 }}

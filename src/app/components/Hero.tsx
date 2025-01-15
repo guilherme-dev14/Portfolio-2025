@@ -28,7 +28,7 @@ export const Hero = () => {
             }}
             className="text-center text-4xl sm:text-3xl"
           >
-            <span className="font-bold text-target">Full-Stack{' '}</span>
+            <span className="font-bold text-target">Full-Stack </span>
             Developer
           </MotionP>
           <MotionDiv

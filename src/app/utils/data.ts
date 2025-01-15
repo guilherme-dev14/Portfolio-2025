@@ -20,18 +20,16 @@ export const projectsData: projectType[] = [
     name: 'Website Wedding',
     repo: 'https://github.com/guilherme-dev14/casamento',
     url: 'https://casamentocesarelenise.vercel.app/',
-    image:
-      'https://i.ibb.co/kgD26Cq/casamento.png',
+    image: 'https://i.ibb.co/kgD26Cq/casamento.png',
     description:
       'This website was made for my parents wedding. It has a countdown, a form to send messages and a gallery with photos of the couple.',
-    tags: ['html', 'typescript', 'styled-components', 'css' ]
+    tags: ['html', 'typescript', 'styled-components', 'css']
   },
   {
     name: 'Old Portfolio',
     repo: 'https://github.com/guilherme-dev14/guilherme-dev14.github.io',
     url: 'https://guilherme-dev14.github.io',
-    image:
-      'https://i.ibb.co/QjXxjPG/Captura-de-tela-2025-01-15-162539.png',
+    image: 'https://i.ibb.co/QjXxjPG/Captura-de-tela-2025-01-15-162539.png',
     description: 'Multi-page Website com tema espacial.',
     tags: ['react', 'javascript', 'html', 'css']
   },
@@ -39,12 +37,11 @@ export const projectsData: projectType[] = [
     name: 'Iza Blog',
     repo: 'https://github.com/guilherme-dev14/izasblog',
     url: '',
-    image:
-      'https://i.ibb.co/vdSBFYx/site-iza-1.png"',
-    description: 'Blog with interactive comments section, made with Vue and TypeScript.',
+    image: 'https://i.ibb.co/vdSBFYx/site-iza-1.png"',
+    description:
+      'Blog with interactive comments section, made with Vue and TypeScript.',
     tags: ['vue', 'typescript', 'styled-components']
-  },
-  
+  }
 ]
 
 export const skillsData = [
@@ -58,7 +55,7 @@ export const skillsData = [
   },
   {
     img: 'azure/azure-original.svg',
-    name: 'Azure DevOps',
+    name: 'Azure DevOps'
   },
   {
     img: 'typescript/typescript-original.svg',
@@ -76,10 +73,9 @@ export const skillsData = [
     img: 'sass/sass-original.svg',
     name: 'Sass'
   },
- 
+
   {
     img: 'react/react-original.svg',
     name: 'React'
-  },
-  
+  }
 ]

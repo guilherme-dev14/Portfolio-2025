@@ -1546,6 +1546,11 @@ eslint-plugin-jsx-a11y@^6.5.1:
     object.fromentries "^2.0.6"
     semver "^6.3.0"
 
+eslint-plugin-next@^0.0.0:
+  version "0.0.0"
+  resolved "https://registry.npmjs.org/eslint-plugin-next/-/eslint-plugin-next-0.0.0.tgz"
+  integrity sha512-IldNDVb6WNduggwRbYzSGZhaskUwVecJ6fhmqwX01+S1aohwAWNzU4me6y47DDzpD/g0fdayNBGxEdt9vKkUtg==
+
 eslint-plugin-prettier@^5.0.0:
   version "5.0.0"
   resolved "https://registry.npmjs.org/eslint-plugin-prettier/-/eslint-plugin-prettier-5.0.0.tgz"
