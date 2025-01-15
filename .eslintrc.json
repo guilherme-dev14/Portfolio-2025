@@ -15,7 +15,8 @@
     "plugin:@typescript-eslint/recommended",
     "plugin:react-hooks/recommended",
     "plugin:prettier/recommended",
-    "prettier"
+    "prettier",
+    "next"
   ],
   "overrides": [],
   "parser": "@typescript-eslint/parser",
