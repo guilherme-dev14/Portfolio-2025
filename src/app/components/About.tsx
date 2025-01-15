@@ -17,7 +17,7 @@ export const About = () => {
           className="flex max-w-2xl flex-col gap-6 text-xl md:text-center sm:text-lg"
         >
           <p>
-            Hi, My name is Guilherme Medeiros. I'm 22 years old and I'm a web
+            Hi, My name is Guilherme Medeiros. I&apos;m 22 years old and I&apos;m a web
             development enthusiast. I usually use Vue.js, TypeScript and .NET
             Core in my projects, but I have experience with React and JavaScript
             as well.

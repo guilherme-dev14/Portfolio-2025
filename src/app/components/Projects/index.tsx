@@ -44,7 +44,7 @@ export const Projects = () => {
     if (isInView) {
       controls.start('visible')
     }
-  }, [controls]);
+  }, [isInView])
 
   return (
     <SectionContainer id="projects" title="Projetos">
