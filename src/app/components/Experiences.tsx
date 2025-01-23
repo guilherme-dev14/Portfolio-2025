@@ -48,32 +48,31 @@ export const Experiences = () => {
 
   return (
     <SectionContainer id="experiences" title="Experience">
-        <div ref={ref}>
+      <div ref={ref}>
+        <MotionDiv
+          variants={container}
+          initial="hidden"
+          animate={controls}
+          className="grid grid-cols-2 gap-32 md:gap-16 sm:grid-cols-1 sm:justify-items-center"
+        >
+          {projectsData.slice(0, projectsPerPage).map((project, index) => (
             <MotionDiv
-            variants={container}
-            initial="hidden"
-            animate={controls}
-            className="grid grid-cols-2 gap-32 md:gap-16 sm:grid-cols-1 sm:justify-items-center"
-            >
-            {projectsData.slice(0, projectsPerPage).map((project, index) => (
-                <MotionDiv
-                variants={item}
-                key={index}
-                className="w-full"
-                >
-               
-                </MotionDiv>
-            ))}
-            </MotionDiv>
-        </div>
-        {projectsData.length > projectsPerPage && (
-            <button
-            onClick={() => setShowMore(true)}
-            className="flex items-center justify-center w-full mt-8 py-2 text-sm font-semibold text-target bg-secondary rounded-lg hover:bg-secondaryHover"
-            >
-            {showMore ? 'Show less' : 'Show more'}
-            <MoveDown className="ml-2" />
-            </button>
-        )}
+              variants={item}
+              key={index}
+              className="w-full"
+            ></MotionDiv>
+          ))}
+        </MotionDiv>
+      </div>
+      {projectsData.length > projectsPerPage && (
+        <button
+          onClick={() => setShowMore(true)}
+          className="mt-8 flex w-full items-center justify-center rounded-lg bg-secondary py-2 text-sm font-semibold text-target hover:bg-secondaryHover"
+        >
+          {showMore ? 'Show less' : 'Show more'}
+          <MoveDown className="ml-2" />
+        </button>
+      )}
     </SectionContainer>
-    )}
+  )
+}
