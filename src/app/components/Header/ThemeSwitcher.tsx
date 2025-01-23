@@ -4,7 +4,7 @@ import { useTheme } from 'next-themes'
 import { Fragment, useEffect, useState } from 'react'
 
 import { Menu, Transition } from '@headlessui/react'
-import { Monitor, MoonStar, Sun } from 'lucide-react'
+import {MoonStar, Sun } from 'lucide-react'
 
 const Themes = [
   {

@@ -3,7 +3,7 @@
 import { useEffect, useRef, useState } from 'react'
 
 import { SectionContainer } from './SectionContainer'
-import { ProjectCard } from './Projects/ProjectCard'
+
 
 import { MotionDiv } from '@/app/lib/motion'
 import { projectsData } from '@/app/utils/data'
@@ -31,7 +31,6 @@ const item = {
 }
 
 const projectsPerPage = 4
-const projectsIncrement = 4
 
 export const Experiences = () => {
   const [showMore, setShowMore] = useState(false)
