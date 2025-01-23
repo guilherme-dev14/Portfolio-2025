@@ -26,7 +26,7 @@ const item = {
 
 export const Skills = () => {
   return (
-    <SectionContainer id="skills" title="Habilidades">
+    <SectionContainer id="skills" title="Skills">
       <MotionDiv
         variants={container}
         initial="hidden"

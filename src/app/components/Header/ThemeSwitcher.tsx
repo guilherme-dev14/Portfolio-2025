@@ -15,10 +15,6 @@ const Themes = [
     label: 'Dark',
     icon: <MoonStar />
   },
-  {
-    label: 'System',
-    icon: <Monitor />
-  }
 ]
 
 export const ThemeSwitcher = () => {

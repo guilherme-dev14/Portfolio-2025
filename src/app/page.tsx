@@ -6,7 +6,7 @@ import { Hero } from './components/Hero'
 import { Projects } from './components/Projects'
 import { Skills } from './components/Skills'
 import { SocialLinks } from './components/SocialLinks'
-
+import { Experiences } from './components/Experiences'
 export default function Home() {
   return (
     <>
@@ -14,6 +14,7 @@ export default function Home() {
       <main className="px-10 sm:px-6">
         <Hero />
         <About />
+        <Experiences />
         <Projects />
         <Skills />
         <Contact />
