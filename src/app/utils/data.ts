@@ -3,7 +3,7 @@ export const navigationLinks = [
   { label: 'About Me', path: '#about' },
   { label: 'Projects', path: '#projects' },
   { label: 'Experience', path: '#skills' },
-  { label: 'Contato', path: '#contact' }
+  { label: 'Contact', path: '#contact' }
 ]
 
 export type projectType = {
