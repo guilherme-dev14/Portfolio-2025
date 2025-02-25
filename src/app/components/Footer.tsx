@@ -37,7 +37,7 @@ export const Footer = () => {
         }}
         className="mx-auto flex w-full max-w-5xl items-center justify-between border-t py-8 text-lg sm:flex-col sm:gap-y-6"
       >
-        <p>© 2025 / Guilherme Medeiros</p>
+        <p>© 2025 / Guilherme Medeiros - Feito em React</p>
         <div className="flex items-center gap-4">
           {socialData.map((social, index) => (
             <a
